@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no,email=no,address=no">
+    <title>知豆车辆监控平台</title>
+    <link rel="stylesheet" type="text/css" href="/static/style/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/static/style/icon.css" />
+    <link rel="stylesheet" type="text/css" href="/static/style/index.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/static/images/nesfavicon.ico">
+    <script src="http://webapi.amap.com/maps?v=1.4.7&key=2e1be124e9fc3e0e7ab1da0bb13fc153&plugin=AMap.MarkerClusterer"></script>
+    <!-- UI组件库 1.0 -->
+    <script src="//webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
+    <!--去除高德地图logo-->
+    <style>
+      .amap-logo {
+        right: 0 !important;
+        left: auto !important;
+        display: none !important;
+      }
+
+      .amap-copyright {
+        right: 70px !important;
+        left: auto !important;
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" class="autoHeight" style="width: 100%; min-width:1200px;">
+        <router-view></router-view>
+    </div>
+  </body>
+</html>
