@@ -1,5 +1,5 @@
 # ZDMP-PlatformWeb
-知豆四期业务平台前端
+XXXX业务平台前端
 
 ## 前提条件
 - [Git 1.9+](http://git-scm.com/downloads)
