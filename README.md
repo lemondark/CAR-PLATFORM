@@ -1,4 +1,4 @@
-# ZDMP-PlatformWeb
+# PlatformWeb
 XXXX业务平台前端
 
 ## 前提条件
